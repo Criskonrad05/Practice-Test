@@ -1,0 +1,67 @@
+import styled from "styled-components";
+
+export const Card = styled.div`
+    background-color: #B4F5FF;
+    border:solid 1px;
+    box-shadow: 6px 6px 3px grey;
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    p{
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px 0 20px;
+        font-size: larger;
+    };
+
+    .botao-edit{
+        color: black;
+        
+        
+    };
+
+    .botao-del{
+        color: black;
+        
+    };
+
+
+`;
+
+export const DivBotao = styled.div`
+        justify-content : center ;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        
+`;
+
+export const Caixa = styled.input`
+    background-color: #B4F5FF;
+    border-width: 0 0 2px 0;
+    margin: 60px 0 0 0;
+`
+export const Container = styled.div`
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;    
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;    
+    }
+`;
+
+export const Adicionar = styled.div`
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    button{
+        color: black;
+        height: 50px;
+    }
+`
