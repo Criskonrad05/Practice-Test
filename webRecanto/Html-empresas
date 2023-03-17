@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Recanto Maestro - website </title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="../css/estilo.css" />
+</head>
+
+<body>
+	<div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col4">
+					<h1 class="logo">Recanto Maestro</h1>
+				</div>
+				<div class="coluna col8">
+					<nav>
+						<ul class="menu inline sem-marcador">
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="Empresas.html">Colaboradores</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+	</div>
+	<div class="linha">
+		<section>
+			<h2>Veja as Empresas Colaboradoras do Recanto Maestro</h2>
+			<div class="coluna col6">
+				<h4>Faculdade Antonio Meneghetti</h4>
+				<img src="../imagens/faculdade-Empr.jpeg" alt="" width="500">
+				<p>O Centro Internacional de Arte e Cultura Humanista Recanto Maestro, localizado entre as belas
+					paisagens da Região Central do Rio Grande do Sul, é um polo de educação, cultura, empreendedorismo,
+					arte, ciência e inovação com atuação local e diálogo internacional.<a
+						href="https://faculdadeam.edu.br/amf/institucional" target="_blank">Leia mais</a></p>
+			</div>
+			<div class="coluna col6">
+				<h4>IMAGO Produtora de Conteúdo</h4>
+				<img src="../imagens/imago.png" alt="" width="200" />
+				<p>A Imago é uma empresa criado pelos próprios professores da AMF (Antonio Meneghetti Faculdade), com o
+					objetivo de criar conteúdos e desenvolver os jovens para o mercadode trabalho.<a
+						href="http://imago.net.br/" target="_blank">Saiba mais</a></p>
+			</div>
+			<div class="coluna col4">
+				<h4>Hotel Recanto Business Center</h4>
+				<img src="../imagens/hotel.jpeg" alt="" width="400">
+				<p>Nossa missão é você, o seu momento, o seu evento, o seu negócio. Nossa equipe é composta por pessoas
+					de coração feliz, de sorriso largo e de calorosa hospitalidade. São verdadeiros especialistas na
+					arte do saber servir e estão atentos a cada...<a href="https://www.hotelrecantobcenter.com.br/"
+						target="_blank">Leia mais</a></p>
+			</div>
+			<div class="coluna col4">
+				<h4>Galeto Di Paolo</h4>
+				<img src="../imagens/dipaolo.jpeg" alt="" width="400">
+				<p>Referência nacional, o Di Paolo oferece o melhor da culinária típica italiana da Serra Gaúcha em
+					massas, galeto al primo canto e acompanhamentos, além de completa carta de vinhos nacionais e
+					importados. Com fortes raízes na Serra Gaúcha, os restaurantes são roteiro...<a
+						href="https://dipaolo.com.br/" target="_blank">Saiba mais</a></p>
+			</div>
+			<div class="coluna col4">
+				<h4>Projeto Oikos</h4>
+				<img src="../imagens/oikos.png" alt="" width="400">
+				<p>O Oikos objetiva proporcionar a busca pelo SER ECOBIOLÓGICO, apresentando, a toda comunidade
+					contemplada, conceitos básicos de meio ambiente, de forma a conscientizá-los sobre...<a
+						href="http://www.projetooikos.com.br/home" target="_blank">Leia mais</a></p>
+			</div>
+			<div class="coluna col4">
+				<h4>Termas Romanas</h4>
+				<img src="../imagens/termas-romanas.jpg" alt="" width="400">
+				<p>Novo parque Termal de água salgada com propriedades medicinais do Brasil! Localizado a apenas 30km do
+					aeroporto de Santa Maria, no coração do Rio Grande do Sul, o complexo do parque termal contempla em
+					toda sua extensão uma área de aproximadamente 150 hectares, tendo um amplo...<a
+						href="https://www.resorttermasromanas.com/" target="_blank">Saiba mais</a></p>
+			</div>
+			<div class="coluna col4">
+				<h4>Meta</h4>
+				<img src="../imagens/meta.png" alt="" width="500">
+				<p>A Meta cria tecnologias que ajudam as pessoas a se conectar com amigos e familiares, encontrar
+					comunidades e expandir os negócios.<a href="https://about.meta.com/br/" target="_blank">Leia
+						mais</a></p>
+			</div>
+		</section>
+	</div>
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy;2023 - Recanto Maestro Website</span>
+				</div>
+</body>
+
+</html>
