@@ -1,0 +1,102 @@
+import { useState } from 'react';
+import './App.css';
+import { Button, Paper, TextField } from "@mui/material"
+import { Card, Container, Adicionar, Botton, DivBotao, Caixa } from './styled';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import EditIcon from '@mui/icons-material/Edit';
+import { color } from '@mui/system';
+
+const App = () => {
+  const [checked, setChecked] = useState([]);
+  const [valor, setValor] = useState({})
+  const [valorEditar, setValorEditar] = useState("")
+  const [teste, setTest] = useState(false);
+
+
+  const item = (item) => {
+    setChecked([...checked, item])
+    console.log(checked)
+    return 0;
+  }
+  const deletar = (idItem) => {
+    const aux = checked.filter(
+      (item) => {
+        if (item.id !== idItem) {
+          return item
+        }
+      }
+    )
+    setChecked(aux)
+  }
+  const editar = (idEditar) => {
+    const aux = checked.filter(
+      (item) => {
+        if (item.id === idEditar) {
+          item.valor = item.valorEditar;
+          item.valorEditar = "";
+        }
+        return item
+      }
+    )
+    setChecked(aux)
+  }
+
+  return (
+    <div className='App'>
+      <Adicionar>
+
+        <Paper sx={{ padding: "10px" }}>
+          <TextField value={valor.valor} onChange={(event) => setValor({ id: checked.length + 1, valor: event.target.value, valorEditar: "" })} id="standard-basic" label="Adicionar" variant="standard" />
+          {valor.valor === "" ? (<div></div>) : (
+            <Button onClick={() => {
+              item(valor);
+              setValor({ id: checked.length + 1, valor: "" });
+            }} variant="text">+</Button>
+          )}
+        </Paper>
+
+      </Adicionar>
+      <Container>
+
+
+        {checked.map(item => (
+          <Card key={item.id}>
+            <p>{item.valor}</p>
+            <Caixa value={item.valorEditar} type="text" className='caixa-Edicao' onChange={(event) => {
+              item.valorEditar = event.target.value;
+              setValorEditar(event.target.value)
+            }} />
+            <DivBotao>
+              {item.valorEditar === "" ?
+                (<Button disabled
+                  onClick={() => {
+                    editar(item.id);
+                    setValorEditar("")
+                  }} type='button' className='botao-edit'>
+                  <EditIcon />
+                </Button>)
+                :
+                (<Button
+                  onClick={() => {
+                    editar(item.id, valorEditar);
+                    setValorEditar("")
+                  }} type='button' className='botao-edit'>
+                  <EditIcon />
+                </Button>)}
+
+              <Button
+                onClick={() => {
+                  deletar(item.id)
+                }}
+                type='button' className='botao-del'>
+                <HighlightOffIcon />
+              </Button>
+            </DivBotao>
+          </Card>
+        )
+        )} </Container>
+    </div >
+  );
+}
+
+export default App;
