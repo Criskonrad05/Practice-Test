@@ -5,10 +5,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Recanto Maestro - website </title>
-	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="/normalize.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
 		rel="stylesheet" />
-	<link rel="stylesheet" href="../css/estilo.css" />
+	<link rel="stylesheet" href="../estilo.css" />
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 			<h2>Veja as Empresas Colaboradoras do Recanto Maestro</h2>
 			<div class="coluna col6">
 				<h4>Faculdade Antonio Meneghetti</h4>
-				<img src="../imagens/faculdade-Empr.jpeg" alt="" width="500">
+				<img src="../imagens/faculdade-Empr.png" alt="" width="500">
 				<p>O Centro Internacional de Arte e Cultura Humanista Recanto Maestro, localizado entre as belas
 					paisagens da Região Central do Rio Grande do Sul, é um polo de educação, cultura, empreendedorismo,
 					arte, ciência e inovação com atuação local e diálogo internacional.<a
@@ -49,7 +49,7 @@
 			</div>
 			<div class="coluna col4">
 				<h4>Hotel Recanto Business Center</h4>
-				<img src="../imagens/hotel.jpeg" alt="" width="400">
+				<img src="../imagens/hotel.png" alt="" width="400">
 				<p>Nossa missão é você, o seu momento, o seu evento, o seu negócio. Nossa equipe é composta por pessoas
 					de coração feliz, de sorriso largo e de calorosa hospitalidade. São verdadeiros especialistas na
 					arte do saber servir e estão atentos a cada...<a href="https://www.hotelrecantobcenter.com.br/"
@@ -57,7 +57,7 @@
 			</div>
 			<div class="coluna col4">
 				<h4>Galeto Di Paolo</h4>
-				<img src="../imagens/dipaolo.jpeg" alt="" width="400">
+				<img src="../imagens/dipaolo.png" alt="" width="400">
 				<p>Referência nacional, o Di Paolo oferece o melhor da culinária típica italiana da Serra Gaúcha em
 					massas, galeto al primo canto e acompanhamentos, além de completa carta de vinhos nacionais e
 					importados. Com fortes raízes na Serra Gaúcha, os restaurantes são roteiro...<a
@@ -72,7 +72,7 @@
 			</div>
 			<div class="coluna col4">
 				<h4>Termas Romanas</h4>
-				<img src="../imagens/termas-romanas.jpg" alt="" width="400">
+				<img src="../imagens/termas.png" alt="" width="400">
 				<p>Novo parque Termal de água salgada com propriedades medicinais do Brasil! Localizado a apenas 30km do
 					aeroporto de Santa Maria, no coração do Rio Grande do Sul, o complexo do parque termal contempla em
 					toda sua extensão uma área de aproximadamente 150 hectares, tendo um amplo...<a
