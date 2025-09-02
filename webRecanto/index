@@ -10,10 +10,10 @@
 	<meta name="keywords"
 		content="Faculdade, Antonio, Meneghetti, Recanto, Maestro, Termas, Romanas, Parque, Azeite, Oliva;" />
 	<meta name="author" content="Cristian André Fiorese Konrad" />
-	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="/normalize.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
 		rel="stylesheet" />
-	<link rel="stylesheet" href="css/estilo.css" />
+	<link rel="stylesheet" href="/estilo.css" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 					<nav>
 						<ul class="menu inline sem-marcador">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="html/Empresas.html">Colaboradores</a></li>
+							<li><a href="/Empresas.html">Colaboradores</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -50,13 +50,13 @@
 					<li><a href="https://www.resorttermasromanas.com/ingresso" target="_blank">Termas Romanas</a></li>
 					<li><a href="https://about.meta.com/br/" target="_blank">Meta</a></li>
 				</ul>
-				<a href="html/Empresas.html" class="botao">Ver todos &raquo;</a>
+				<a href="/Empresas.html" class="botao">Ver todos &raquo;</a>
 			</div>
 			<div class="coluna col9"></div>
 			<h2><em>Faculdade Antonio Meneghetti</em></h2>
-			<img src="imagens/faculdade.png" width="425" alt="" />
+			<img src="imagens/faculdade.png" width="450" alt="" />
 			<p>Antonio Meneghetti Faculdade é uma instituição de ensino superior brasileira inaugurada em 20 de janeiro
-				de 2008, localizada na ...<a href="https://pt.wikipedia.org/wiki/Antonio_Meneghetti_Faculdade"
+				de 2008, localizada na... <a href="https://pt.wikipedia.org/wiki/Antonio_Meneghetti_Faculdade"
 					target="_blank">Leia mais</a></p>
 	</div>
 	</section>
@@ -76,7 +76,7 @@
 				<h3>Útimas notícias sobre as termas</h3>
 				<ul class="sem-marcador sem-padding notícias">
 					<li>
-						<img src="imagens/fazenda.jpg" width="350" alt="" />
+						<img src="imagens/fazenda.png" width="350" alt="" />
 						<h4></h4>
 						<p>Resort no RS terá fazenda de R$ 270 mil com "mini animais", para crianças... <a
 								href="https://gauchazh.clicrbs.com.br/ultimas-noticias/tag/termas-romanas/"
@@ -84,7 +84,7 @@
 					</li>
 					<li>
 						<h4>Além de resort e parque termal, região gaúcha tera fábrica de azeite de oliva.</h4>
-						<img src="imagens/azeite.jpeg" width="275" alt="" />
+						<img src="imagens/azeite.png" width="275" alt="" />
 						<p>Estrutura ficará em uma área onde há cultivo de oliveiras há quatro anos já... <a
 								href="https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2021/08/alem-de-resort-e-parque-termal-regiao-gaucha-tera-fabrica-de-azeite-de-oliva-cksrogqyy004q013bnim6782l.html"
 								target="_blank">Leia mais &raquo;</a>></p>
